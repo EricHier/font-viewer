@@ -1,4 +1,4 @@
-# FontTest: a simle test to try how different paragraphs look with different font famlilies
+# FontTest: see how different font settings look on your own text
 
 ## Features
 
