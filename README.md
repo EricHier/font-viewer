@@ -1,0 +1,17 @@
+# FontTest: a simle test to try how different paragraphs look with different font famlilies
+
+## Features
+
+- Setting custom text to view
+- changing font weight
+- changing letter spacing
+- changing font families: all Google Fonts are available and loaded via `WebFontLoader`
+- storing font family and text in localstorage
+
+## Where can I access it? 
+
+The page is deployed to Netlify on [font.erichier.tech](https://font.erichier.tech). 
+
+## Any plans for the future? 
+
+I'll probably add more options for the future. 
