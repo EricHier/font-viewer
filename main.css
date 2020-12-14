@@ -1,0 +1,87 @@
+.content {
+    width: 100vw;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+p {
+    height: fit-content;
+    display: block;
+    padding: 1rem;
+    color: rgb(29, 29, 29)
+}
+
+body {
+    margin: 0;
+}
+
+#app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottom {
+    width: 100vw;
+    height: fit-content;
+    flex-direction: row;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+.center {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfdfd;
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+div>input,
+div>select {
+    margin-top: 1rem;
+    display: block;
+}
+
+.credits {
+    background-color: #fafafa;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0.5rem 0;
+}
+
+.bottom>div, .bottom>a, .credits {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    margin: .5rem 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .bottom {
+        flex-direction: column;
+    }
+}
+
+a {
+    text-decoration: unset;
+}
+
+html {
+    overflow: hidden;
+}
