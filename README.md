@@ -1,4 +1,4 @@
-# FontTest: see how different font settings look on your own text
+# Font Viewer: see how different font settings look on your own text
 
 ## Features
 
